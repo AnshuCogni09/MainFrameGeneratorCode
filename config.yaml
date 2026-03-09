@@ -1,0 +1,43 @@
+# MainFrame Code Generator Configuration
+
+# OpenAI Configuration
+openai:
+  api_key: "${OPENAI_API_KEY}"
+  model: "gpt-4o"
+  temperature: 0.2
+  max_tokens: 4000
+
+# Code Generation Settings
+generation:
+  default_language: "COBOL"
+  include_comments: true
+  include_copybooks: false
+  validation_enabled: true
+
+# Output Settings
+output:
+  default_directory: "./output"
+  file_extension_map:
+    cobol: ".cbl"
+    jcl: ".jcl"
+    db2: ".sql"
+    cics: ".cics"
+  create_subdirs: true
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "mainframe_generator.log"
+
+# Template Settings
+templates:
+  directory: "./templates"
+  cache_enabled: true
+
+# Validation Rules
+validation:
+  check_syntax: true
+  check_best_practices: true
+  warn_on_deprecated: true
+
