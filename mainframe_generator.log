@@ -23,3 +23,8 @@
 2026-03-09 15:18:34,225 - mainframe_generator.agent - INFO - Generating cics code: basic program...
 2026-03-09 15:18:34,226 - mainframe_generator.agent - INFO - Successfully generated cics code
 2026-03-09 15:18:34,226 - mainframe_generator.agent - INFO - Successfully generated cics code
+2026-03-10 15:30:47,669 - mainframe_generator.agent - WARNING - No OpenAI API key found. AI features will be limited.
+2026-03-10 15:30:47,673 - mainframe_generator.agent - INFO - Initialized 4 generators: cobol, jcl, db2, cics
+2026-03-10 15:30:47,675 - mainframe_generator.agent - INFO - MainFrame Agent initialized successfully
+2026-03-10 15:30:47,725 - mainframe_generator.agent - INFO - Generating cobol code: basic program to read a file...
+2026-03-10 15:30:47,728 - mainframe_generator.agent - INFO - Successfully generated cobol code

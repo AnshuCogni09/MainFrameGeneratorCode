@@ -1,0 +1,2 @@
+[console_scripts]
+mainframe = mainframe_generator.cli:main
